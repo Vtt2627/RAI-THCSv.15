@@ -1,4 +1,4 @@
-const GAS_URL = "https://script.google.com/macros/s/AKfycbyGAFIYyGLjOBAWxyhCfvhPoJX2JiWJEE_7N35Ur3EZNNWCDh_3jvd3oGJ00p-vrdc2/exec";
+const GAS_URL = "https://script.google.com/macros/s/AKfycbxwvWTtjhGG-c414Oy7UcNGjDAeuyaVCSn7tPInzUIJe8Krr5NUOV7RwVv5vy4JxUGz/exec";
 
 const STORAGE_KEY = "aiResponsibleResults";
 
