@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@500;600;700;800&display=swap');
-
 * {
     box-sizing: border-box;
 }
@@ -15,7 +14,7 @@ body {
     overflow-x: hidden;
 }
 
-#bg-canvas-3d {
+#bg-canvas-3d{
     position: fixed;
     top: 0;
     left: 0;
@@ -26,7 +25,7 @@ body {
     pointer-events: none;
 }
 
-body > *:not(#bg-canvas-3d) {
+body > *:not(#bg-canvas-3d){
     position: relative;
     z-index: 1;
 }
@@ -36,19 +35,19 @@ body > p,
 .container,
 #startSection,
 #quiz,
-#result {
+#result{
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
 }
 
-h1, h2, h3, h4 {
+h1,h2,h3,h4{
     font-family: 'Sora', 'Inter', sans-serif;
     font-weight: 600;
     color: #f8fafc;
 }
 
-h1 {
+h1{
     text-align: center;
     font-weight: 700;
     font-size: 36px;
@@ -59,27 +58,27 @@ h1 {
     background-clip: text;
     -webkit-text-fill-color: transparent;
     filter: drop-shadow(0 0 10px rgba(125, 211, 252, 0.45))
-            drop-shadow(0 0 22px rgba(196, 181, 253, 0.25));
+            drop-shadow(0 0 22px rgba(196, 181, 253, 0.25));    
 }
 
-body > p {
+body >p {
     text-align: center;
     line-height: 1.7;
     color: #b6c2d9;
     margin-bottom: 10px;
 }
 
-p {
+p{
     line-height: 1.6;
     color: #b6c2d9;
 }
 
-a {
+a{
     color: #7dd3fc;
     font-weight: 600;
 }
 
-.container {
+.container{
     background: rgba(15, 23, 42, 0.75);
     backdrop-filter: blur(14px);
     -webkit-backdrop-filter: blur(14px);
@@ -88,7 +87,7 @@ a {
     padding: 30px;
 }
 
-#startSection {
+#startSection{
     background: rgba(15, 23, 42, 0.75);
     backdrop-filter: blur(14px);
     -webkit-backdrop-filter: blur(14px);
@@ -98,26 +97,26 @@ a {
     margin-top: 25px;
 }
 
-#startSection label {
+#startSection label{
     font-weight: 600;
     color: #e2e8f0;
 }
 
-#studentCodeDisplay {
+#studentCodeDisplay{
     font-family: 'Sora', 'Inter', sans-serif;
     font-size: 22px;
     font-weight: 700;
     letter-spacing: 1px;
     color: #7dd3fc;
     background: rgba(125, 211, 252, 0.08);
-    border: 1px solid rgba(125, 211, 252, 0.35);
+    border: 1px solid rgba(125, 211, 252, 0.08);
     border-radius: 10px;
     padding: 14px;
     text-align: center;
     margin: 15px 0;
 }
 
-input[type="text"] {
+input[type="text"]{
     width: 100%;
     padding: 12px;
     margin-top: 8px;
@@ -129,13 +128,13 @@ input[type="text"] {
     color: #f1f5f9;
 }
 
-input[type="text"]:focus {
+input[type="text"]:focus{
     outline: none;
     border-color: #7dd3fc;
     box-shadow: 0 0 0 3px rgba(125, 211, 252, 0.2);
 }
 
-button {
+button{
     padding: 12px 20px;
     border: none;
     border-radius: 8px;
@@ -145,26 +144,26 @@ button {
     font-family: 'Sora', 'Inter', sans-serif;
     background-color: #2563eb;
     color: #fff;
-    transition: background-color 0.2s ease, transform 0.15s ease;
+    transition: background-color 0.2s ease, transform 0.15px ease;
 }
 
-button:hover {
+button:hover{
     background-color: #1d4ed8;
     transform: translateY(-1px);
 }
 
-button:disabled {
+button:disabled{
     opacity: 0.5;
     cursor: not-allowed;
 }
 
-button:disabled:hover {
+button:disabled:hover{
     background-color: #2563eb;
     transform: none;
 }
 
 #quiz,
-#result {
+#result{
     background: rgba(15, 23, 42, 0.85);
     backdrop-filter: blur(14px);
     -webkit-backdrop-filter: blur(14px);
@@ -175,13 +174,13 @@ button:disabled:hover {
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
 }
 
-#questionText {
+#questionText{
     font-size: 18px;
     font-weight: 700;
     font-family: 'Sora', 'Inter', sans-serif;
 }
 
-#options label {
+#options label{
     display: block;
     padding: 12px;
     margin-bottom: 10px;
@@ -193,13 +192,13 @@ button:disabled:hover {
     transition: all 0.2s ease;
 }
 
-#options label:hover {
+#options label:hover{
     background-color: rgba(125, 211, 252, 0.12);
     border-color: #7dd3fc;
     transform: translateX(3px);
 }
 
-#scoreResult {
+#scoreResult{
     font-size: 26px;
     font-weight: 700;
     font-family: 'Sora', 'Inter', sans-serif;
@@ -208,16 +207,16 @@ button:disabled:hover {
 }
 
 #attentionResult,
-#recommendationResult {
+#recommendationResult{
     line-height: 1.7;
 }
 
-.researchLink {
+.researchLink{
     text-align: center;
     margin-top: 20px;
 }
 
-.noteBox {
+.noteBox{
     background-color: rgba(240, 217, 140, 0.12);
     border: 1px solid #f0d98c;
     border-radius: 8px;
@@ -226,7 +225,7 @@ button:disabled:hover {
     color: #fde68a;
 }
 
-table {
+table{
     width: 100%;
     border-collapse: collapse;
     background-color: rgba(255, 255, 255, 0.04);
@@ -235,27 +234,27 @@ table {
 }
 
 table th,
-table td {
+table td{
     border: 1px solid #334155;
     padding: 10px;
     text-align: left;
 }
 
-table th {
+table th{
     background-color: #2563eb;
     color: white;
     font-weight: 700;
     font-family: 'Sora', 'Inter', sans-serif;
 }
 
-table tr:nth-child(even) {
+table tr:nth-child(even){
     background-color: rgba(255, 255, 255, 0.03);
 }
 
-#clearDataButton {
+#clearDataButton{
     background-color: #dc2626;
 }
 
-#clearDataButton:hover {
+#clearDataButton:hover{
     background-color: #b91c1c;
 }
