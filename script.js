@@ -28,11 +28,11 @@ const scoreResult = document.getElementById("scoreResult");
 const attentionResult = document.getElementById("attentionResult");
 const recommendationResult = document.getElementById("recommendationResult");
 const studentCodeDisplay = document.getElementById("studentCodeDisplay");
-/*
+
 function clearPreviousLocalData(){
     localStorage.removeItem(STORAGE_KEY);
 }
-*/
+
 //xin cấp mã 
 function requestStudentCode(retries = 3, delay = 2000){
     studentCodeDisplay.textContent = "Đang cấp mã học sinh...";
