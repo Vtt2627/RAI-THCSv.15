@@ -106,6 +106,113 @@ const questions = [
             "Không cần đọc lại"
         ],
         answer: 0
+    },
+     {
+        id: "C01B",
+        behavior: "HV01",
+        question: "Nam hỏi AI về dân số của một tỉnh. AI đưa ra một số liệu cụ thể nhưng không ghi nguồn và thời điểm. Nam nên làm gì trước khi sử dụng số liệu?",
+        options: [
+            "Dùng ngay vì AI trả lời rất cụ thể",
+            "Hỏi AI lại rồi dùng số liệu mới",
+            "Kiểm tra lại thông tin bằng nguồn phù hợp",
+            "Bỏ qua tất cả thông tin do AI cung cấp"
+        ],
+        answer: 2
+    },
+    {
+        id: "C02B",
+        behavior: "HV02",
+        question: "Khoa dùng AI lập dàn ý cho bài thuyết trình nhưng chưa kiểm tra nội dung. Khoa nên làm gì?",
+        options: [
+            "Dùng ngay vì AI đã lập dàn ý",
+            "Kiểm tra nội dung rồi mới sử dụng",
+            "Chỉ cần trình bày bài cho đẹp",
+            "Gửi cho bạn quyết định"
+        ],
+        answer: 1
+    },
+    {
+        id: "C03B",
+        behavior: "Phương dùng AI tạo một hình ảnh cho dự án. Quy định yêu cầu ghi rõ công cụ đã sử dụng. Phương nên làm gì?",
+        options: [
+            "Nói hình ảnh hoàn toàn do mình tạo",
+            "Không cần nói về AI",
+            "Đổi tên tệp hình ảnh",
+            "Ghi nhận AI đã hỗ trợ tạo hình ảnh"
+        ],
+        answer: 3
+    },
+    {
+        id: "C04B",
+        behavior: "HV04",
+        question: "Một công cụ AI yêu cầu Bình cho phép truy cập toàn bộ danh bạ điện thoại. Bình nên làm gì?",
+        options: [
+            "Kiểm tra xem quyền truy cập đó có thật sự cần thiết không",
+            "Đồng ý ngay",
+            "Đồng ý vì đây là công cụ AI",
+            "Cho phép và gửi thêm thông tin"
+        ],
+        answer: 0
+    },
+    {
+        id: "C05B",
+        behavior: "HV05",
+        question: "Hoàng xem một video của một người nổi tiếng. Hình ảnh và âm thanh có một số điểm không tự nhiên. Điều gì khiến Hoàng cần nghi ngờ và kiểm tra thêm?",
+        options: [
+            "Video có nhiều lượt xem",
+            "Hình ảnh và âm thanh có dấu hiệu bất thường",
+            "Người xuất hiện trong video rất nổi tiếng",
+            "Video có thời lượng ngắn"
+        ],
+        answer: 1
+    },
+    {
+        id: "C06B",
+        behavior: "HV06",
+        question: "AI cung cấp thông tin cho bài dự án. Nguồn chỉ ghi “chuyên gia công nghệ”, không có tên hay tài liệu cụ thể. Em nên làm gì?",
+        options: [
+            "Dùng ngay vì có chữ “chuyên gia”",
+            "Tin vì AI đã trả lời",
+            "Xóa thông tin mà không cần kiểm tra",
+            "Tìm và đối chiếu với nguồn phù hợp khác"
+        ],
+        answer: 3
+    },
+    {
+        id: "C07B",
+        behavior: "HV07",
+        question: "Phong nhận tin nhắn nói tài khoản ngân hàng của cha mẹ bị khóa và có một đường link đăng nhập. Phong nên làm gì?",
+        options: [
+            "Đăng nhập ngay",
+            "Gửi mật khẩu cho người gửi",
+            "Không dùng đường link đó và báo người lớn để kiểm tra qua kênh chính thức",
+            "Chuyển tiếp tin nhắn cho bạn"
+        ],
+        answer: 2
+    },
+    {
+        id: "C08B",
+        behavior: "HV08",
+        question: "Một nhóm học sinh gặp một vấn đề thực tế. AI đưa ra một phương án và nhóm định chọn ngay mà chưa thảo luận. Nhóm nên làm gì?",
+        options: [
+            "Chọn ngay phương án của AI",
+            "Tự phân tích, thảo luận và quyết định",
+            "Hỏi AI thêm rồi chọn phương án đầu tiên",
+            "Giao việc quyết định cho AI"
+        ],
+        answer: 1
+    },
+    {
+        id: "C09B",
+        behavior: "HV09",
+        question: "Châu dùng AI viết một đoạn code và định nộp ngay mà chưa chạy thử. Châu nên làm gì?",
+        options: [
+            "Chạy thử, kiểm tra và sửa lỗi nếu cần",
+            "Nộp ngay",
+            "Hỏi AI xem code có đúng không rồi nộp",
+            "Đổi tên chương trình"
+        ],
+        answer: 0
     }
 ];
 
